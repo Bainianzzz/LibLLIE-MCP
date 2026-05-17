@@ -76,7 +76,7 @@ pip install libllie
 <summary>Quick Start</summary>
 ### CLI
 
-你可以使用'libllie'或者'llie'作为命令
+You can use either `libllie` or `llie` as the command.
 
 ```bash
 # List registered models, algorithms, metrics, losses, and datasets
@@ -95,7 +95,7 @@ llie eval --en path/to/enhanced/images/dir --ref path/to/reference/images/dir --
 
 ### Python
 
-对于传统算法，只需要给定算法名称，和需要被增强的低光增强图像即可。
+For traditional algorithms, you only need to provide the algorithm name and the low-light-enhanced image to be enhanced.
 
 ```python
 import libllie as llie
@@ -260,3 +260,10 @@ LibLLIE is released under the MIT License. See [LICENSE](LICENSE).
 
 Glory Wan  
 glory947446@gmail.com
+
+## Bibtex
+
+```
+coming soon
+```
+
