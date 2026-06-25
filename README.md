@@ -1,9 +1,4 @@
 <div align="center">
-  <p>
-    <img width="95%" src="assets/icon.jpg" alt="LibLLIE logo">
-  </p>
-
-
   <h1>LibLLIE</h1>
 
   <p>
@@ -21,6 +16,10 @@
     <a href="docs-zh-CN/guide/overview.md">中文文档</a> |
     <a href="docs/usage/cli.md">CLI</a> |
     <a href="docs/usage/cfg.md">Configuration</a>
+  </p>
+
+  <p>
+    <img width="95%" src="assets/icon.jpg" alt="LibLLIE logo">
   </p>
 </div>
 
