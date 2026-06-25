@@ -141,6 +141,9 @@ enhanced, saved_path = llie.predict(
 | [KinD++](docs/models/kind++.md) | 2021 | IJCV | [paper](https://doi.org/10.1007/s11263-020-01407-x) | [code](https://github.com/zhangyhuaee/KinD_plus) |
 | [EnlightenGAN](docs/models/enlightengan.md) | 2021 | IEEE TIP | [paper](https://doi.org/10.1109/TIP.2021.3051462) | [code](https://github.com/VITA-Group/EnlightenGAN) |
 | [LLFlow](docs/models/llflow.md) | 2022 | AAAI | [paper](https://doi.org/10.1609/aaai.v36i3.20162) | [code](https://github.com/wyf0912/LLFlow) |
+| [HVI-CIDNet](docs/models/cidnet.md) | 2025 | CVPR | [paper](https://arxiv.org/abs/2502.20272) | [code](https://github.com/Fediory/HVI-CIDNet) |
+| [PairLIE](docs/models/pairlie.md) | 2023 | CVPR | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Fu_Learning_a_Simple_Low-Light_Image_Enhancer_From_Paired_Low-Light_Instances_CVPR_2023_paper.pdf) | [code](https://github.com/zhenqifu/PairLIE) |
+| [LLFormer](docs/models/llformer.md) | 2023 | AAAI (Oral) | [paper](https://arxiv.org/abs/2212.11548) | [code](https://github.com/TaoWangzj/LLFormer) |
 
 </details>
 
@@ -266,4 +269,3 @@ glory947446@gmail.com
 ```
 coming soon
 ```
-

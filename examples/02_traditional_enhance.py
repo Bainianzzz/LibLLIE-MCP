@@ -11,11 +11,11 @@ def main():
     enhanced, single_path = llie.predict(
         "gamma",
         # image_path,
-        r"D:\13011\Documents\8.png",
+        r"D:\13011\Documents\1.png",
         # color_space='hsv',
-        gamma=1.5,
+        gamma=1.1,
         # output=output_dir / "he_yuv.jpg",
-        output=r"D:\13011\Documents\9.png",
+        output=r"D:\13011\Documents\2.png",
     )
 
     print(f"Single traditional output: {single_path}")

@@ -14,6 +14,15 @@ from .KinD_Loss import KinD_Loss, KinDLoss
 from .KinDPlusPlus_Loss import KinDPlusPlus_Loss, KinDPlusPlusLoss
 from .EnlightenGAN_Loss import EnlightenGAN_Loss, EnlightenGANLoss
 from .LLFlow_Loss import LLFlow_Loss, LLFlowLoss
+from .CIDNet_Loss import (
+    CIDNet_Loss,
+    CIDNetLoss,
+    CIDNetSSIMLoss,
+    CIDNetEdgeLoss,
+    CIDNetPerceptualLoss,
+)
+from .PairLIE_Loss import PairLIE_Loss, PairLIELoss, PairLIETotalVariationLoss
+from .LLFormer_Loss import LLFormer_Loss, LLFormerLoss
 
 
 __all__ = [
@@ -49,4 +58,14 @@ __all__ = [
     'EnlightenGANLoss',
     'LLFlow_Loss',
     'LLFlowLoss',
+    'CIDNet_Loss',
+    'CIDNetLoss',
+    'CIDNetSSIMLoss',
+    'CIDNetEdgeLoss',
+    'CIDNetPerceptualLoss',
+    'PairLIE_Loss',
+    'PairLIELoss',
+    'PairLIETotalVariationLoss',
+    'LLFormer_Loss',
+    'LLFormerLoss',
 ]

@@ -16,3 +16,6 @@ from .KinD import KinD
 from .KinDPlusPlus import KinDPlusPlus
 from .EnlightenGAN import EnlightenGAN
 from .LLFlow import LLFlow
+from .CIDNet import CIDNet
+from .PairLIE import PairLIE
+from .LLFormer import LLFormer

@@ -56,4 +56,4 @@ llie = "libllie.cli:main"
 include = ["libllie*"]
 
 [tool.setuptools.package-data]
-"libllie.deepLearning" = ["config/*.yaml"]
+"libllie.deepLearning" = ["config/*.yaml", "models/CIDNet_LICENSE.txt", "models/LLFormer_LICENSE.txt"]

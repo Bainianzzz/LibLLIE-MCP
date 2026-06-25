@@ -800,13 +800,19 @@ class Trainer:
         low, high, _ = self._move_batch_to_device(batch, require_target=requires_target)
 
         original_mode = None
-        needs_training_output = isinstance(self.criterion, BaseLoss) and not self.criterion.requires_target
+        paired_forward = bool(getattr(self.model, "requires_paired_forward", False))
+        needs_training_output = isinstance(self.criterion, BaseLoss) and (
+            not self.criterion.requires_target or paired_forward
+        )
         if needs_training_output and hasattr(self.model, "config"):
             original_mode = self.model.config.get("mode")
             self.model.config["mode"] = "train"
 
         try:
-            output = self.model(low)
+            if paired_forward:
+                output = self.model(low, paired_image=high)
+            else:
+                output = self.model(low)
         finally:
             if original_mode is not None:
                 self.model.config["mode"] = original_mode
